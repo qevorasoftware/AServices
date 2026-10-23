@@ -1,6 +1,6 @@
 # AServices header
 
-A responsive HTML, CSS and jQuery implementation of the AServices navigation header.
+A responsive HTML, CSS and jQuery implementation of the AServices navigation header and minibus rental home hero.
 
 ## Run locally
 
@@ -8,4 +8,4 @@ Open `index.html` in a browser, or serve this directory with any static web serv
 
 ## Layout
 
-The centered `.container` uses a 1270px outer maximum width with 15px side padding, leaving 1240px of inner content at desktop sizes. The navigation collapses into an accessible mobile menu below 701px.
+The centered `.container` uses a 1270px outer maximum width with 15px side padding, leaving 1240px of inner content at desktop sizes. The navigation collapses into an accessible mobile menu below 701px. The hero uses the supplied minibus photograph in `assets/minibus-hero.jpg`, with responsive text, availability CTA, and a tap-to-call contact link.
