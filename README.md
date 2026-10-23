@@ -1,6 +1,6 @@
 # AServices header
 
-A responsive HTML, CSS and jQuery implementation of the AServices navigation header, minibus rental home hero, rental-benefits overview, and a minibus introduction section.
+A responsive HTML, CSS and jQuery implementation of the complete AServices minibus-rental homepage.
 
 ## Run locally
 
@@ -8,4 +8,4 @@ Open `index.html` in a browser, or serve this directory with any static web serv
 
 ## Layout
 
-Every page section now shares the same centered `.container`: 1270px outer maximum width with 15px side padding, leaving 1240px of inner content at desktop sizes. The navigation collapses into an accessible mobile menu below 701px. The hero uses the supplied minibus photograph in `assets/minibus-hero.jpg`, with responsive text, availability CTA, and a tap-to-call contact link. The next section presents rental benefits alongside the day-rate summary, stacking into one column on smaller screens. The following introduction section pairs the supplied minibus photograph with responsive travel copy and a minibus examples link. The responsive minibus-options section compares three common vehicle types and links to the availability contact.
+All sections share the same centered `.container`: 1270px outer maximum width with 15px side padding, leaving 1240px of inner content at desktop sizes. The page includes the responsive header and hero, rental benefits and pricing, minibus introduction and options, travel inspiration cards, a three-step booking guide, expandable FAQs, a contact form, and footer. The contact form opens a pre-filled email draft; the page has no server-side form backend. jQuery powers the mobile navigation, form handling, and current footer year.

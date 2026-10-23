@@ -20,4 +20,17 @@ $(function () {
       $navigation.removeClass('is-open');
     }
   });
+
+  $('#current-year').text(new Date().getFullYear());
+
+  $('#request-form').on('submit', function (event) {
+    event.preventDefault();
+    var message = $(this).serializeArray().map(function (field) {
+      return field.name + ': ' + field.value;
+    }).join('\n');
+    var subject = encodeURIComponent('Aanvraag minibus huren');
+    var body = encodeURIComponent(message);
+    $('#form-status').text('Je e-mailprogramma opent met je aanvraag. Verstuur de e-mail om deze definitief in te dienen.');
+    window.location.href = 'mailto:info@rent-a-bus.be?subject=' + subject + '&body=' + body;
+  });
 });
